@@ -7,13 +7,13 @@ Firmware_Diy_Core() {
 	Author=AUTO
 	Author_URL=AUTO
 	Default_Flag=AUTO
-	Default_IP="192.168.1.1"
+	Default_IP="192.168.188.1"
 	Default_Title="Powered by AutoBuild-Actions"
 
 	Short_Fw_Date=true
 	x86_Full_Images=false
 	Fw_Format=false
-	Regex_Skip="packages|buildinfo|sha256sums|manifest|kernel|rootfs|factory|itb|profile|ext4|json"
+	Regex_Skip="packages|buildinfo|sha256sums|manifest|kernel|rootfs|factory|itb|profile|json"
 
 	AutoBuild_Features=true
 }
